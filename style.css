@@ -18,6 +18,10 @@ body {
     padding: 10px;
 }
 
+.firstH2, .secondH2, .thirdH2, .fourthH2 {
+    text-align: center;
+}
+
 .firstSection, .secondSection, .thirdSection {
     height: 525px;
 }
@@ -42,6 +46,14 @@ body {
 .nav-bar {
     width: 70%;
 }
+
+.puppyImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 
 
