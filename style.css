@@ -19,10 +19,15 @@ body {
 .firstSection, .secondSection, .thirdSection, .fourthSection, .nav-bar {
     float: left;
     height: 600px;
+    padding: 10px;
 }
 
 .firstSection, .thirdSection, .fourthSection {
-    width: 25%;
+    width: 20%;
+}
+
+.firstSection, .fourthSection {
+    margin-left: 80px;
 }
 
 .secondSection {
@@ -30,7 +35,7 @@ body {
 }
 
 .nav-bar {
-    width: 75%;
+    width: 70%;
 }
 
 
