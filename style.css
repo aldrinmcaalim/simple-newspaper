@@ -59,8 +59,7 @@ body {
 nav.nav-bar {
     margin: 0;
     padding: 0;
-    font-size: 55px;
-    background-color: aqua;
+    /* font-size: 55px; */
 }
 
 ul.nav {
@@ -74,10 +73,30 @@ nav ul li {
 }
 
 .nav-politics, .nav-tech, .nav-local, .nav-opinion, .nav-sports {
-    padding: 1px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    padding-left: 1px;
 }
 
+.nav-politics {
+    background-color: #fbff79cf;
+}
 
+.nav-tech {
+    background-color: #7affffd6;
+}
+
+.nav-local {
+    background-color: #7affc8;
+}
+
+.nav-opinion {
+    background-color: #74d1ff;
+}
+
+.nav-sports {
+    background-color: rgba(183, 45, 183, 0.73);
+}
 
 nav ul li a {
     text-decoration: none;
