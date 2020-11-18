@@ -16,4 +16,23 @@ body {
     border: 2px solid black;
 }
 
+.firstSection, .secondSection, .thirdSection, .fourthSection, .nav-bar {
+    float: left;
+    height: 600px;
+}
+
+.firstSection, .thirdSection, .fourthSection {
+    width: 25%;
+}
+
+.secondSection {
+    width: 50%;
+}
+
+.nav-bar {
+    width: 75%;
+}
+
+
+
 
