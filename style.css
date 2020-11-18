@@ -103,6 +103,15 @@ nav ul li a {
     text-decoration: none;
 }
 
+.nav-bar a {
+    color: black;
+}
+
+.nav-bar a:hover {
+    color: #353535;
+    text-decoration: underline;
+}
+
 
 
 
