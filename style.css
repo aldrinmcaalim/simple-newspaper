@@ -45,6 +45,8 @@ body {
 
 .nav-bar {
     width: 70%;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .puppyImage {
@@ -53,6 +55,34 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
+nav.nav-bar {
+    margin: 0;
+    padding: 0;
+    font-size: 55px;
+    background-color: aqua;
+}
+
+ul.nav {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.nav-politics, .nav-tech, .nav-local, .nav-opinion, .nav-sports {
+    padding: 1px;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+}
+
 
 
 
