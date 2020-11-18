@@ -18,6 +18,14 @@ body {
     padding: 10px;
 }
 
+.firstSection {
+    border-top-left-radius: 5%;
+}
+
+.thirdSection {
+    border-top-right-radius: 5%;
+}
+
 .firstH2, .secondH2, .thirdH2, .fourthH2 {
     text-align: center;
 }
@@ -104,11 +112,11 @@ nav ul li a {
 }
 
 .nav-bar a {
-    color: black;
+    color: #2e2e2e;
 }
 
 .nav-bar a:hover {
-    color: #353535;
+    color: #4e4d4d;
     text-decoration: underline;
 }
 
