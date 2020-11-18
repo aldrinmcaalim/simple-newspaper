@@ -12,5 +12,8 @@ body {
     justify-content: center;
 }
 
+.firstSection, .secondSection, .thirdSection, .fourthSection, .nav-bar {
+    border: 2px solid black;
+}
 
 
